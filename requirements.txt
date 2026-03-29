@@ -1,0 +1,52 @@
+# ─────────────────────────────────────────────
+#  PDF RAG Chatbot — Requirements (100% FREE)
+# ─────────────────────────────────────────────
+
+# PDF Parsing
+pdfplumber>=0.10.0
+PyMuPDF>=1.23.0
+
+# Chunking & LangChain
+langchain>=0.2.0
+langchain-community>=0.2.0
+langchain-ollama>=0.1.0
+
+# Embeddings — local HuggingFace (FREE, no API key)
+sentence-transformers>=2.7.0
+torch>=2.1.0
+transformers>=4.40.0
+
+# Vector Store — local (FREE)
+chromadb>=0.5.0
+
+# Hybrid Search — BM25 keyword search (FREE)
+rank-bm25>=0.2.2
+
+# Pydantic v2
+pydantic>=2.7.0
+pydantic-settings>=2.3.0
+
+# Image / OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# Logging & Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+colorlog>=6.8.0
+loguru>=0.7.2
+
+# LLM APIs
+groq>=0.9.0
+google-generativeai>=0.8.0
+
+# Frontend
+streamlit>=1.35.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
+
+# Evaluation
+ragas>=0.1.9
+datasets>=2.19.0
