@@ -1,12 +1,12 @@
-# Bot2: Advanced PDF RAG Chatbot 📚🤖
+# Advanced PDF RAG Chatbot 📚🤖
 
-Bot2 is a production-grade, highly precise **Retrieval-Augmented Generation (RAG)** chatbot built to answer complex questions from user-uploaded PDF documents. It completely eliminates AI hallucinations by enforcing strict context-grounding and generating verbatim line-item citations pointing directly to the source document.
+This Chatbot is a production-grade, highly precise **Retrieval-Augmented Generation (RAG)** chatbot built to answer complex questions from user-uploaded PDF documents. It completely eliminates AI hallucinations by enforcing strict context-grounding and generating verbatim line-item citations pointing directly to the source document.
 
 ---
 
 ## 🏗️ Core Architecture & Features
 
-Bot2 moves beyond simplistic vector-search RAG by implementing a rigorous, multi-stage pipeline:
+This Chatbot moves beyond simplistic vector-search RAG by implementing a rigorous, multi-stage pipeline:
 
 1. **Intelligent Ingestion (Parent-Child Chunking)**
    - PDFs are parsed using PyMuPDF and split into hierarchical Parent/Child chunks. 
