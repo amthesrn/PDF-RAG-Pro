@@ -1,0 +1,12 @@
+{
+  "question": "What is a call option?",
+  "answer": "A call option is a contract that gives the buyer the right (not obligation) to buy the underlying asset at a set price before expiry [doc_2:page_70]. It is also described as giving the buyer the right to BUY the underlying asset at the strike price [doc_0:page_8]. The buyer pays a premium for this right, and it is profitable when the underlying asset price RISES [doc_2:page_70].",
+  "confidence": "high",
+  "model": "llama-3.3-70b-versatile",
+  "time_ms": 1273.83,
+  "source_pages": [
+    8,
+    70,
+    3
+  ]
+}

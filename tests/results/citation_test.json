@@ -1,0 +1,9 @@
+{
+  "question": "What is the difference between a call option and a put option?",
+  "answer": "A call option gives its buyer the right to BUY the underlying asset at the strike price, and is used when the buyer believes the price will go UP [doc_0:page_8]. In contrast, a put option gives its buyer the right to SELL the underlying asset at the strike price, and is used when the buyer believes the price will FALL [doc_1:page_10].",
+  "citations_found": [
+    "[doc_0:page_8]",
+    "[doc_1:page_10]"
+  ],
+  "citation_count": 2
+}

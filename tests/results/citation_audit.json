@@ -1,0 +1,17 @@
+{
+  "question": "What are the Greeks in options trading?",
+  "total_citations": 1,
+  "valid": 1,
+  "invalid": 0,
+  "accuracy_pct": 100.0,
+  "source_pages": [
+    20
+  ],
+  "details": [
+    {
+      "citation": "[doc_0:page_20]",
+      "page_in_sources": true
+    }
+  ],
+  "answer_preview": "The Greeks in options trading are Delta, Gamma, Theta, Vega, and Rho [doc_0:page_20]."
+}

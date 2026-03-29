@@ -1,0 +1,330 @@
+[
+  {
+    "id": "Q1",
+    "question": "What is a call option and when would you use one?",
+    "difficulty": "easy",
+    "answer": "A call option gives the buyer the right to buy the underlying asset at the strike price [doc_0:page_8]. The seller (writer) of the call option agrees to sell the underlying to the buyer at the strike price if the buyer exercises the option [doc_1:page_8]. You buy a call option when you believe the price of the underlying asset will go up [doc_0:page_8].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 10214.6,
+    "source_pages": [
+      8,
+      8
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "right to buy",
+      "strike price",
+      "underlying asset"
+    ],
+    "keywords_missing": [
+      "price rises",
+      "premium"
+    ],
+    "citation_count": 3,
+    "citations": [
+      "[doc_0:page_8]",
+      "[doc_1:page_8]",
+      "[doc_0:page_8]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q2",
+    "question": "What is a put option and how does it differ from a call option?",
+    "difficulty": "easy",
+    "answer": "A put option gives its buyer the right to sell the underlying asset at the strike price [doc_1:page_10]. It is typically purchased when an investor believes the price of the asset will fall [doc_1:page_10].\n\nIn contrast, a call option gives the buyer the right to buy the underlying asset at the strike price [doc_0:page_8]. While a put option is a bet on a price decrease, a call option is used when an investor believes the price will go up [doc_0:page_8][doc_1:page_10].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 28156.5,
+    "source_pages": [
+      8,
+      10
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "right to sell",
+      "call",
+      "put"
+    ],
+    "keywords_missing": [
+      "price falls",
+      "opposite"
+    ],
+    "citation_count": 5,
+    "citations": [
+      "[doc_1:page_10]",
+      "[doc_1:page_10]",
+      "[doc_0:page_8]",
+      "[doc_0:page_8]",
+      "[doc_1:page_10]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q3",
+    "question": "What are the Greeks in options trading?",
+    "difficulty": "medium",
+    "answer": "The Greeks in options trading are Delta, Gamma, Theta, Vega, and Rho [doc_0:page_20][doc_121:page_20]. They serve as an instrument panel and a navigator through options risk, measuring with mathematical precision how an option's premium will change when the market moves, time passes, volatility shifts, or interest rates change [doc_0:page_20][doc_1:page_20].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 39525.7,
+    "source_pages": [
+      20,
+      20,
+      20
+    ],
+    "keyword_coverage": 1.0,
+    "keywords_found": [
+      "delta",
+      "gamma",
+      "theta",
+      "vega"
+    ],
+    "keywords_missing": [],
+    "citation_count": 4,
+    "citations": [
+      "[doc_0:page_20]",
+      "[doc_121:page_20]",
+      "[doc_0:page_20]",
+      "[doc_1:page_20]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q4",
+    "question": "What is the Black-Scholes model used for?",
+    "difficulty": "medium",
+    "answer": "The Black-Scholes model is a mathematical formula used to calculate the theoretical fair value of an option [doc_3:page_17][doc_116:page_19]. It serves as a fair-value calculator and common language for options traders [doc_3:page_17]. By allowing traders to price options themselves, it helps identify when market prices deviate from theoretical fair value, thereby creating trading opportunities [doc_0:page_54]. The formula essentially determines the probability that an option will end up in the money and its expected payoff based on variables such as current price, strike, time remaining, volatility, and interest rates [doc_106:page_17].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 13972.6,
+    "source_pages": [
+      17,
+      54,
+      19,
+      17
+    ],
+    "keyword_coverage": 0.75,
+    "keywords_found": [
+      "theoretical",
+      "value",
+      "model"
+    ],
+    "keywords_missing": [
+      "option pricing"
+    ],
+    "citation_count": 5,
+    "citations": [
+      "[doc_3:page_17]",
+      "[doc_116:page_19]",
+      "[doc_3:page_17]",
+      "[doc_0:page_54]",
+      "[doc_106:page_17]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q5",
+    "question": "Explain the concept of implied volatility in options.",
+    "difficulty": "medium",
+    "answer": "Implied Volatility (IV) is the market's forecast of future volatility, derived from current option prices by reverse-engineering the Black-Scholes formula [doc_0:page_16][doc_4:page_18]. It reflects the level of fear and uncertainty in the market; high IV indicates that options are expensive, while low IV indicates they are cheap [doc_0:page_16][doc_114:page_18]. \n\nThe impact of IV on option premiums is measured by Vega, which tracks the change in price per 1 percentage point change in IV [doc_1:page_23]. IV can change dramatically before and after major events, even if the underlying asset's price does not move significantly [doc_1:page_23].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 20842.5,
+    "source_pages": [
+      16,
+      18,
+      23,
+      18
+    ],
+    "keyword_coverage": 0.8,
+    "keywords_found": [
+      "market",
+      "future",
+      "volatility",
+      "price"
+    ],
+    "keywords_missing": [
+      "expectation"
+    ],
+    "citation_count": 6,
+    "citations": [
+      "[doc_0:page_16]",
+      "[doc_4:page_18]",
+      "[doc_0:page_16]",
+      "[doc_114:page_18]",
+      "[doc_1:page_23]",
+      "[doc_1:page_23]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q6",
+    "question": "What is a covered call strategy?",
+    "difficulty": "medium",
+    "answer": "A covered call strategy involves owning the underlying stock and selling an out-of-the-money (OTM) call option above the current price [doc_1:page_26][doc_2:page_9]. The primary purpose is to collect the option premium as income [doc_1:page_26][doc_2:page_9]. If the stock price remains below the strike price, the investor keeps the premium [doc_1:page_26]. If the stock price rises above the strike price, the investor must sell the stock at the strike price, resulting in a capped profit [doc_1:page_26].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 13514.4,
+    "source_pages": [
+      26,
+      9
+    ],
+    "keyword_coverage": 1.0,
+    "keywords_found": [
+      "own",
+      "stock",
+      "sell",
+      "call",
+      "premium",
+      "income"
+    ],
+    "keywords_missing": [],
+    "citation_count": 6,
+    "citations": [
+      "[doc_1:page_26]",
+      "[doc_2:page_9]",
+      "[doc_1:page_26]",
+      "[doc_2:page_9]",
+      "[doc_1:page_26]",
+      "[doc_1:page_26]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q7",
+    "question": "What is the difference between American and European options?",
+    "difficulty": "easy",
+    "answer": "European options can only be exercised at expiry, while American options can be exercised at any time before expiry [doc_2:page_7][doc_39:page_7]. In the Indian market, all index options are European style, whereas stock options are American style [doc_2:page_7][doc_39:page_7].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 11368.6,
+    "source_pages": [
+      7,
+      7
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "exercise",
+      "american",
+      "european"
+    ],
+    "keywords_missing": [
+      "anytime",
+      "expiration"
+    ],
+    "citation_count": 4,
+    "citations": [
+      "[doc_2:page_7]",
+      "[doc_39:page_7]",
+      "[doc_2:page_7]",
+      "[doc_39:page_7]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q8",
+    "question": "What is an iron condor strategy?",
+    "difficulty": "hard",
+    "answer": "An iron condor is a defined-risk range trade that combines a short strangle with two long out-of-the-money (OTM) options, referred to as \"wings,\" for protection [doc_2:page_29]. \n\n**Structure and Risk:**\n*   **Structure:** It involves selling an OTM call and buying a further OTM call (to cap upside loss), and selling an OTM put and buying a further OTM put",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 23856.6,
+    "source_pages": [
+      29,
+      39,
+      39,
+      70
+    ],
+    "keyword_coverage": 0.67,
+    "keywords_found": [
+      "range",
+      "sell",
+      "call",
+      "put"
+    ],
+    "keywords_missing": [
+      "neutral",
+      "spread"
+    ],
+    "citation_count": 1,
+    "citations": [
+      "[doc_2:page_29]"
+    ],
+    "relevance": 0.7,
+    "faithfulness": 0.7,
+    "confidence": "medium",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q9",
+    "question": "What are the risks of selling naked options?",
+    "difficulty": "hard",
+    "answer": "Selling naked calls is considered the most dangerous trade because the potential loss is theoretically unlimited [doc_0:page_10] [doc_57:page_10]. If the underlying asset's price rises, the seller must deliver the difference at the strike price [doc_0:page_10] [doc_57:page_10]. These losses can far exceed the premium collected and may wipe out a trader's entire trading capital [doc_0:page_10] [doc_57:page_10] [doc_1:page_10]. For example, a trader in 2020 who collected ₹50,000 in premiums faced losses of over ₹8,00,000 after a 40% market rally [doc_0:page_10] [doc_57:page_10].",
+    "model": "models/gemini-3-flash-preview",
+    "latency_ms": 14745.1,
+    "source_pages": [
+      10,
+      10,
+      10
+    ],
+    "keyword_coverage": 0.4,
+    "keywords_found": [
+      "unlimited",
+      "loss"
+    ],
+    "keywords_missing": [
+      "risk",
+      "margin",
+      "obligation"
+    ],
+    "citation_count": 9,
+    "citations": [
+      "[doc_0:page_10]",
+      "[doc_57:page_10]",
+      "[doc_0:page_10]",
+      "[doc_57:page_10]",
+      "[doc_0:page_10]",
+      "[doc_57:page_10]",
+      "[doc_1:page_10]",
+      "[doc_0:page_10]",
+      "[doc_57:page_10]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q10",
+    "question": "What is the purpose of quantum computing in finance?",
+    "difficulty": "irrelevant",
+    "answer": "This information is not available in the provided document.",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 7491.0,
+    "source_pages": [],
+    "keyword_coverage": 1.0,
+    "keywords_found": [],
+    "keywords_missing": [],
+    "citation_count": 0,
+    "citations": [],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "not_found",
+    "not_found_correct": true
+  }
+]

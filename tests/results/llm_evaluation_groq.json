@@ -1,0 +1,311 @@
+[
+  {
+    "id": "Q1",
+    "question": "What is a call option and when would you use one?",
+    "difficulty": "easy",
+    "answer": "A call option gives its buyer the right to BUY the underlying asset at the strike price [doc_0:page_8]. You buy a call when you believe the price will go UP [doc_0:page_8].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 7125.7,
+    "source_pages": [
+      8,
+      8
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "right to buy",
+      "strike price",
+      "underlying asset"
+    ],
+    "keywords_missing": [
+      "price rises",
+      "premium"
+    ],
+    "citation_count": 2,
+    "citations": [
+      "[doc_0:page_8]",
+      "[doc_0:page_8]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q2",
+    "question": "What is a put option and how does it differ from a call option?",
+    "difficulty": "easy",
+    "answer": "A put option gives its buyer the right to SELL the underlying asset at the strike price [doc_1:page_10]. You buy a put when you believe the price will FALL [doc_1:page_10]. In contrast, a call option gives its buyer the right to BUY the underlying asset at the strike price [doc_0:page_8]. You buy a call when you believe the price will go UP [doc_0:page_8].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 6383.3,
+    "source_pages": [
+      8,
+      10
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "right to sell",
+      "call",
+      "put"
+    ],
+    "keywords_missing": [
+      "price falls",
+      "opposite"
+    ],
+    "citation_count": 4,
+    "citations": [
+      "[doc_1:page_10]",
+      "[doc_1:page_10]",
+      "[doc_0:page_8]",
+      "[doc_0:page_8]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q3",
+    "question": "What are the Greeks in options trading?",
+    "difficulty": "medium",
+    "answer": "The Greeks in options trading are Delta, Gamma, Theta, Vega, and Rho [doc_0:page_20].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 6492.4,
+    "source_pages": [
+      20,
+      20,
+      20
+    ],
+    "keyword_coverage": 1.0,
+    "keywords_found": [
+      "delta",
+      "gamma",
+      "theta",
+      "vega"
+    ],
+    "keywords_missing": [],
+    "citation_count": 1,
+    "citations": [
+      "[doc_0:page_20]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 0.7,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q4",
+    "question": "What is the Black-Scholes model used for?",
+    "difficulty": "medium",
+    "answer": "The Black-Scholes model is used to calculate the theoretical fair value of an option [doc_3:page_17], and it gives every options trader a common language and a fair-value calculator [doc_3:page_17]. It is also used to identify when market prices deviate from theoretical fair value, creating trading opportunities [doc_0:page_54].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 7288.3,
+    "source_pages": [
+      17,
+      54,
+      19,
+      17
+    ],
+    "keyword_coverage": 0.75,
+    "keywords_found": [
+      "theoretical",
+      "value",
+      "model"
+    ],
+    "keywords_missing": [
+      "option pricing"
+    ],
+    "citation_count": 3,
+    "citations": [
+      "[doc_3:page_17]",
+      "[doc_3:page_17]",
+      "[doc_0:page_54]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q5",
+    "question": "Explain the concept of implied volatility in options.",
+    "difficulty": "medium",
+    "answer": "Implied Volatility (IV) is the market's forecast of future volatility, derived from current option prices [doc_0:page_16]. It is also called the market's implied forecast of future volatility [doc_4:page_18]. IV reflects fear and uncertainty in the market [doc_0:page_16]. If options are expensive, IV is high, and if options are cheap, IV is low [doc_0:page_16]. IV is calculated by reverse-engineering the Black-Scholes formula [doc_0:page_16].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 7420.6,
+    "source_pages": [
+      16,
+      18,
+      23,
+      18
+    ],
+    "keyword_coverage": 0.8,
+    "keywords_found": [
+      "market",
+      "future",
+      "volatility",
+      "price"
+    ],
+    "keywords_missing": [
+      "expectation"
+    ],
+    "citation_count": 5,
+    "citations": [
+      "[doc_0:page_16]",
+      "[doc_4:page_18]",
+      "[doc_0:page_16]",
+      "[doc_0:page_16]",
+      "[doc_0:page_16]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q6",
+    "question": "What is a covered call strategy?",
+    "difficulty": "medium",
+    "answer": "A covered call strategy involves owning the underlying stock and selling an OTM call above the current price to collect premium as income [doc_1:page_26]. Alternatively, it is also described as selling calls above the current price to earn extra income when you already own the stock [doc_2:page_9].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 6711.5,
+    "source_pages": [
+      26,
+      9
+    ],
+    "keyword_coverage": 1.0,
+    "keywords_found": [
+      "own",
+      "stock",
+      "sell",
+      "call",
+      "premium",
+      "income"
+    ],
+    "keywords_missing": [],
+    "citation_count": 2,
+    "citations": [
+      "[doc_1:page_26]",
+      "[doc_2:page_9]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q7",
+    "question": "What is the difference between American and European options?",
+    "difficulty": "easy",
+    "answer": "American options can be exercised any time before expiry, whereas European options can only be exercised at expiry [doc_2:page_7]. Additionally, it is mentioned that all Indian index options are European style, and Indian stock options are American style [doc_2:page_7].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 7067.9,
+    "source_pages": [
+      7,
+      7
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "exercise",
+      "american",
+      "european"
+    ],
+    "keywords_missing": [
+      "anytime",
+      "expiration"
+    ],
+    "citation_count": 2,
+    "citations": [
+      "[doc_2:page_7]",
+      "[doc_2:page_7]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q8",
+    "question": "What is an iron condor strategy?",
+    "difficulty": "hard",
+    "answer": "An Iron Condor strategy combines a short strangle with two long OTM options as 'wings' for protection, limiting both maximum profit and maximum loss [doc_2:page_29]. It involves selling an OTM call, buying a further OTM call, selling an OTM put, and buying a further OTM put, creating a defined-risk range trade [doc_2:page_29].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 7232.2,
+    "source_pages": [
+      29,
+      39,
+      39,
+      70
+    ],
+    "keyword_coverage": 0.67,
+    "keywords_found": [
+      "range",
+      "sell",
+      "call",
+      "put"
+    ],
+    "keywords_missing": [
+      "neutral",
+      "spread"
+    ],
+    "citation_count": 2,
+    "citations": [
+      "[doc_2:page_29]",
+      "[doc_2:page_29]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q9",
+    "question": "What are the risks of selling naked options?",
+    "difficulty": "hard",
+    "answer": "The risk of selling naked calls is that your loss is theoretically unlimited [doc_0:page_10]. For example, if Nifty rises from 25,000 to 28,000, you must deliver the difference at the strike price [doc_0:page_10]. This can result in significant losses, as seen in the case of a trader who sold Nifty calls and lost ₹8,00,000+ [doc_0:page_10].",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 6483.6,
+    "source_pages": [
+      10,
+      10,
+      10
+    ],
+    "keyword_coverage": 0.6,
+    "keywords_found": [
+      "unlimited",
+      "risk",
+      "loss"
+    ],
+    "keywords_missing": [
+      "margin",
+      "obligation"
+    ],
+    "citation_count": 3,
+    "citations": [
+      "[doc_0:page_10]",
+      "[doc_0:page_10]",
+      "[doc_0:page_10]"
+    ],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "high",
+    "not_found_correct": null
+  },
+  {
+    "id": "Q10",
+    "question": "What is the purpose of quantum computing in finance?",
+    "difficulty": "irrelevant",
+    "answer": "This information is not available in the provided document.",
+    "model": "llama-3.3-70b-versatile",
+    "latency_ms": 6467.4,
+    "source_pages": [],
+    "keyword_coverage": 1.0,
+    "keywords_found": [],
+    "keywords_missing": [],
+    "citation_count": 0,
+    "citations": [],
+    "relevance": 1.0,
+    "faithfulness": 1.0,
+    "confidence": "not_found",
+    "not_found_correct": true
+  }
+]
